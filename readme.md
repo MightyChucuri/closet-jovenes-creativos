@@ -31,8 +31,16 @@ En la aplicación el usuario puede ver las prenedas disponibles y elegir la pren
     El sprite del pantalón se muestra.
 
 ### Flujo para el sprite cambiante del pantalón
-
-
+1. Al hacer clic sobre la bandera verde: 
+    Se ubica el sprite del pantalon en la posición x:0 y:0
+    Se ajusta el tamaño del sprite del pantalón al 100%
+    Luego, dentro de un bucle infinito: 
+        Si [el puntero del mouse está tocando el sprite del pantalon]
+            [Ajusta su tamaño a 150%]
+            [Envía un mensaje "info"]
+        Si no: 
+            [Ajusta el tamaño del mouse a 100%]
+            
 ## Simulación en Scractch 
 
 
